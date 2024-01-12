@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+   
+    
+</head>
+<body>
+<div class="wrap">
+
+<!--開頭長框設定 -->
+    <header>
+        <h1 class="logo">
+            <a href=""> macaron</a>
+        </h1>
+
+        <nav class="meun">
+        <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#news">news</a></li>
+            <li><a href="#prodct">prodct</a></li>
+            <li><a href="#service">service</a></li>  
+        </ul>
+    </header>
+</div>
+<!--開頭長框設定尾 -->
+
+
+<!--幻燈片設定 --> 
+<script>
+      $(document).ready(function(){
+        $(".slider").bxSlider({
+        auto: true,
+        autoControls: false,
+        stopAutoOnClick: true,
+        pager: true,
+        slideWidth: 1180
+        });
+      });
+</script>
+<div class="slider">
+  <div><img src="photo/one01.png" alt=""></div>
+  <div><img src="photo/one02.png" alt=""></div>
+  <div><img src="photo/one01.png" alt=""></div>
+  <div><img src="photo/one02.png" alt=""></div>
+</div>
+<!--幻燈片設定尾 --> 
+
+
+<!--三小格設定 -->
+<section class="there">
+<!--第一-->
+<div class="card Colorful ">
+  <div class="card-image"></div>
+  <div class="card-inter">It is a long established fact that a reader will </div>
+</div>
+<!--第二-->
+<div class="card gift">
+  <div class="card-image"></div>
+  <div class="card-inter">It is a long established fact that a reader will </div>
+</div>
+<!--第三-->
+<div class="card fruit">
+  <div class="card-image"></div>
+  <div class="card-inter">It is a long established fact that a reader will </div>
+</div>
+</section>
+
+<!--實體店設定 -->
+<div class="physical"></div>
+
+<!--三條設定 -->
+<div class="Handmade"></div>
+<div class="fresh"></div>
+<div class="Gift"></div>
+<!--尾設定 -->
+
+<div class="Tail"></div>
+
+</body>
+</html>

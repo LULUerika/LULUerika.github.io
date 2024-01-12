@@ -1,0 +1,163 @@
+*{box-sizing: border-box;}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body,h1,h2{margin: 0%;}
+body{
+    font-family: sans-serif;
+    color: rgb(94, 92, 20);
+
+}
+.wrap{
+    width: 1280px;
+    height:168px ;
+    margin: 0 auto;
+}
+
+/*開頭長框設定*/
+header{
+    background-color: #2E2E2E;
+    display: flex;
+    padding-inline: 50px;
+    position: sticky;
+    top: 10px;
+    box-shadow: 0 0 5px 0 rgb(65, 65, 65) ;
+
+}
+
+
+header a{
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    display: block;
+    display: flex;
+    font-size: 70px;
+}
+
+
+header h1{
+    margin-right: auto;
+}
+
+.meun ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.meun a{
+    font-size: 30px;
+    padding: 6px 28px;
+    background-color: #752A2A;
+    border-radius: 50px;
+}
+
+.meun a:hover{
+    color: rgb(27, 27, 27);
+    background-color: rgb(206, 206, 206);
+}
+
+/*開頭長框設定尾端*/
+
+
+/*三小格設定*/
+.there{   
+display: flex;
+gap: 20px;
+width: 1100px;
+height: 480px ;
+margin: 0 auto;
+margin-bottom: 20px;
+
+}
+.card{
+    width: 383px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.card-image{
+    width:100%;
+    height:368px;
+    background-size: cover;
+}
+
+.Colorful .card-image{
+background-image: url(photo/2024-01-04\ 163006.png);
+}
+.gift .card-image{
+    background-image: url(photo/02.png);
+    }
+    .fruit .card-image{
+        background-image: url(photo/03.png);
+        }
+.card-inter{
+    background-color: #2E2E2E;
+    font-size:20px;
+    padding: 10px 20px;
+}
+
+
+/*實體店設定*/
+.physical{
+    
+    width: 1175px;
+    height:730px ;
+    background-image: url(photo/04.png);
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 16px;
+}
+
+/*三條設定*/
+
+.Handmade{
+    width: 1183px;
+    height:204px ;
+    background-color: #2E2E2E;
+    background-image: url(photo/001.png);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    
+
+}
+.fresh{
+    width: 1183px;
+    height:204px ;
+    background-color: #2E2E2E;
+    background-image: url(photo/002.png);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+.Gift{
+    width: 1183px;
+    height:204px ;
+    background-color: #2E2E2E;
+    background-image: url(photo/003.png);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 16px;
+}
+
+
+/*尾設定*/
+.Tail{
+    height:224px ;
+    width: 1324px;
+    margin-bottom: 40px;
+    background-image: url(photo/99.png);
+    margin: 0 auto;
+}
+
+
+/*幻燈片設定*/
+
+.bx-wrapper{
+    margin: 0 auto;
+}
+
+
